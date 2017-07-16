@@ -1,0 +1,18 @@
+{
+  "name": "evenchecker",
+  "version": "1.0.0",
+  "description": "alexa skill even stuff...",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "alexa",
+    "even"
+  ],
+  "author": "dhanush patel",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}

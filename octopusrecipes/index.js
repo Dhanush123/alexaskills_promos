@@ -30,6 +30,7 @@ var handlers = {
           "Octopus soup is a great option for the cold weather! Just mix it in boiling water with soy sauce.",
           "Grilled octopus tastes great. Sprinkle bread crumbs on it and grill it on your stove for 10 minutes at medium heat."
         ];
+        this.emit(":tell",recipes[Math.floor(Math.random() * 4)]); //Math.floor(Math.random() * (max - min + 1)) + min
     },
     "AMAZON.HelpIntent": function() {
         console.log("went in Amazon.HelpIntent");

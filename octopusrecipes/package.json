@@ -1,0 +1,17 @@
+{
+  "name": "octopusrecipes",
+  "version": "1.0.0",
+  "description": "alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "alexa"
+  ],
+  "author": "dhanush patel",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}
